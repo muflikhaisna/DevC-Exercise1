@@ -1,0 +1,162 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+hr {
+	border: 0;
+	height: 0;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+#header {
+	background-color: black;
+	color: white;
+	width: 100%;
+	text-align: center;
+	display: flex;
+}
+.image-profile {
+	margin-left: 50px;
+	margin-top: 50px;
+	background-color: yellow;
+	width: 291px;
+}
+#image-name > img {
+	margin-left: 20px;
+	width: 500px;
+	margin-top: 50px;
+}
+
+#content {
+	display: flex;
+}
+
+#content-left {
+	background-color: yellow;
+	color: black;
+	margin-left: 50px;
+	width: 290px;
+	margin-bottom: 40px;
+}
+.cp-content-left {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#profile-name {
+	text-align: center;
+	padding: 20px;
+}
+
+#profile-name > p {
+	margin: 0;
+}
+.sub-cp {
+	padding: 20px;
+	display: flex;
+}
+.icon-text {
+	padding-left: 15px;
+	margin-right: 20px;
+	font-weight: bold;
+}
+
+#content-right {
+	background-color: white;
+	width: 100%;
+	padding: 20px;
+}
+.sub-content-right {
+	margin-bottom: 20px;
+}
+.title {
+	font-weight: bold;
+	background-color: black;
+	color: yellow;
+	padding: 10px;
+	width: 30%;
+}
+.sub-title {
+	background-color: yellow;
+	color: black;
+	padding: 10px;
+	display: flex;
+	flex-direction: row;
+}
+.sub-title-profile {
+	background-color: yellow;
+	color: black;
+	padding: 10px;
+}
+.sub-title-education {
+	display: flex;
+	background-color: yellow;
+	color: black;
+	padding: 10px;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+}
+.sub-sub-title {
+	width: 250px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.icon-sub {
+	display: flex;
+	margin: auto;
+}
+.icon-cp {
+	background-color: black;
+	border-radius: 50%;
+	padding: 6px;
+	height: 30px;
+	width: 30px;
+}
+
+.icon-education {
+	background-color: black;
+	border-radius: 50%;
+	height: 70px;
+	width: 70px;
+	display: block;
+	text-align: center;
+	padding: 15px;
+	margin-bottom: 10px;
+}
+.sub-title-text-skills {
+	width: 300px;
+}
+#footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+	justify-content: center;
+	align-items: center;
+}
+#footer > a {
+	padding: 15px;
+}
+.meter {
+	width: 100%;
+	background-color: black;
+	border-radius: 20px;
+	padding: 3px;
+	margin: auto;
+}
+
+.sub-meter {
+	background-color: white;
+	color: white;
+	font-size: 1px;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
